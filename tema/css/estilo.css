@@ -1,0 +1,64 @@
+h1{
+color: blue;
+}
+h1.verde{
+color: green;
+}
+.verde{
+	color:#008000;	
+}
+table{
+	border: 2px;
+	border-color: #0000FF;
+	border-style: dashed;
+}
+#footer{
+	background-color: #008000;
+}
+#menu{
+	width: 200px;
+}
+#menu ol li{
+	background-color: #AAAAFF;
+}
+#menu ol li ol li{
+	background-color: #0000FF;
+}
+#menu ol li ol li a{
+	color:#FF0000;
+}
+#menu ol li ol li a:visited{
+	color:#FFAAAA;
+}
+
+
+/**ESTIOS MAIN*/
+
+#juegos{
+    width:280px;
+    height:500px;
+    background-color:silver;
+    border: 2px solid black;
+  
+}
+
+.juegos{
+    width:100px;
+    height:100px;  
+    border:1px solid black;
+}
+
+/*ESTILOS TRES EN RAYA*/
+
+#tablero{
+    width:501px;
+    height:501px;
+    background-color:orange;
+}
+#f1c1,#f1c2,#f1c3,#f2c1,#f2c2,#f2c3,#f3c1,#f3c2,#f3c3 {
+    width:165px;
+    height:165px;
+    border:1px solid black;
+    float:left;
+  
+} 
